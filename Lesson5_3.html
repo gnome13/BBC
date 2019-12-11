@@ -1,0 +1,222 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,700|Noto+Sans+HK|Ramabhadra|Righteous|Yrsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"href="gen_style.css">
+
+ 
+</head>
+<body>
+    <div class='sign_selector'>
+        <img class="BBC" id="BBC_bbc1"   src="bbc.png" alt="sign" >
+        <img class="BBC" id="BBC_sign"   src="sign.jpg" alt="sign" >
+        <img class="BBC" id="BBC_home" src="Home.png" alt="News"  >
+        <img class="BBC" id="BBC_news" src="News.png" alt="News"  > 
+        <img class="BBC" id="BBC_sport" src="Sport.png" alt="Sport" >
+        <img class="BBC" id="BBC_Weather" src="Weather.png" alt="Wearther" >
+        <img class="BBC" id="BBC_shop" src="Shop.png" alt="Shop" >
+        <img class="BBC" id="BBC_reel" src="Reel.png" alt="Reel" >
+        <img class="BBC" id="BBC_travel" src="Travel.png" alt="Travel" >
+        <img class="BBC" id="BBC_travel" src="Capital.png" alt="Travel" >
+        <img class="BBC" id="BBC_more" src="More.png" onclick="changeVisibility()" alt="More" >
+        <input   id="BBC_Search_input" type="text" name="Search" value="Seach"/>
+        <img  id="BBC_Search_img"  src="Search.png" alt="Search" >
+    </div>
+    <div class="More_Visible" id="More_Visible">
+        <div>
+                <span class="More_Visible_text" style="padding-left: 50px;" id="More_Visible_More">MORE</span>
+                <a class="More_Visible_text" id="More_Visible_subject" style="padding-left:32px;"   href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Culture</a> 
+                <a class="More_Visible_text" id="More_Visible_subject"   href="https://www.ynet.co.il/home/0,7340,L-8,00.html">future</a>  
+                <a class="More_Visible_text" id="More_Visible_subject"   href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Sounds</a> 
+                <a class="More_Visible_text" id="More_Visible_subject"   href="https://www.ynet.co.il/home/0,7340,L-8,00.html">CBBC</a> 
+                <a class="More_Visible_text" id="More_Visible_subject"   href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Cbeebies</a>                                                                          
+        </div>
+        <div>
+                <a class="More_Visible_text" id="More_Visible_subject"  style="padding-left: 50px;" href="https://www.ynet.co.il/home/0,7340,L-8,00.html"></a>
+                <a class="More_Visible_text" id="More_Visible_subject" style="padding-left:32px;"  href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Food</a>
+                <a class="More_Visible_text" id="More_Visible_subject"   href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Bitesize</a>
+                <a class="More_Visible_text" id="More_Visible_subject"   href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Taster</a>
+                <a class="More_Visible_text" id="More_Visible_subject"   href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Arts</a>
+                <a class="More_Visible_text" id="More_Visible_subject"   href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Nature</a>
+        </div>
+        <div>
+                <a class="More_Visible_text" id="More_Visible_subject"  style="padding-left: 50px;" href="https://www.ynet.co.il/home/0,7340,L-8,00.html"></a>  
+                <a class="More_Visible_text" id="More_Visible_subject" style="padding-left:32px;" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Local</a>              
+                <a class="More_Visible_text" id="More_Visible_subject"  href="https://www.ynet.co.il/home/0,7340,L-8,00.html">TV</a>
+                <a class="More_Visible_text" id="More_Visible_subject"  href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Radio</a> 
+                <a class="More_Visible_text" id="More_Visible_subject"  href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Three</a>                               
+        </div>
+         
+    </div>
+
+    <img class="News_line" src="News2_1.png" alt="Search"  >
+
+    <div id="home_line">
+        <img  src="News_first.png" alt="sign" >
+        <img  id="Home_line_news_home"  id="Home_line_news_news" src="News_home.png" alt="sign" >
+        <img class="Home_line_news" id="Home_line_news_news" src="News_video.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_news" src="News_world.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_news" src="News_uk.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_news" src="News_business.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_tech" src="News_tech.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_news" src="News_science.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_news" src="News_stories.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_news" src="News_ent.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_health" src="News_health.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_worldnews" src="News_worldnews.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_inpictures" src="News_inpictures.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_reality" src="News_reality.png" alt="News"  >
+        <img class="Home_line_news" id="Home_line_news_newsbeat" src="News_newsbeat.png" alt="News"  >
+        <img  id="Home_line_news_more" src="News_more.png" alt="News"  >
+    </div"> 
+    <div>
+        <img  src="Line3_tech.png" alt="tech"  >
+    </div>
+    <div class="Tech_2_3_right">
+        <div>
+            <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html">
+                <img class="Tech_2_3_right_text" src="Tech_1_pic.png" alt="tech"  > 
+            </a> >   
+        </div>
+        <div>
+            <a  class="Tech_2_3_right_text" id="Tech_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Amazon easily defeated facial ID revolt</a>
+        </div>
+         <div>
+              <p class="Tech_2_3_right_text"  id="Tech_2_3_text_small">Ballot to ban sales of recognition system to police attrached less than 3% of invectors' votes.</p> 
+
+         </div>
+         <div style="margin-top: 70px;">
+            <i class="glyphicon glyphicon-time Tech_2_3_right_text"></i> <span class="span_d"> 1d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a>
+            
+        </div>
+        <ul style="margin-top: 65px;padding-left: 65px;">
+            <li  id="Tech_2_3_text_bold"> <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Amazon heads off facial ID rebeiiion</a></li>
+            <li class="glyphicon glyphicon-play" style="margin-left:-20px;"></li>></li></li><a id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Could facial recognition cut crime ?</a>
+        </ul>
+    </div>
+       
+    <div class="Tech_2_3_left">
+        <div>
+            <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_2_pic.png" alt="tech"  > </a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_3_pic.png" alt="tech"  > </a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_4_pic.png" alt="tech"  >   </a> 
+        </div>
+        <div>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">The tablet computer pulled by dokey</a>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Iggy Azalea 'violated' by nude photo leak</a>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Cyber-spies tight-lipped on Baltimore hack</a>
+        </div>
+        <div>
+            <a  class="Tech_2_3_left_text_small" id="Tech_2_3_text_small" href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> Communities in Mozambique  learn about health, banking electtions via giant interctive screens.</a>
+            <a  class="Tech_2_3_left_text_small" id="Tech_2_3_text_small" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">The rapper deletes her social media acounts after recieving "vile" messages about leaked photos.</a>
+            <a  class="Tech_2_3_left_text_small" id="Tech_2_3_text_small" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Politicians seek briefings from US cyber_agency over claims it has links to a ransomware breach.</a>
+    
+         </div>
+        <div style="margin-top: 7px;">
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time" ></i> <span class="span_d"> 1d   </span> <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a>  </div> 
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 1d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a> </div> 
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 2d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a>  </div>  
+        </div>
+        <div style="margin-top:25px;"></div>
+        <div>
+            <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_2_2.png" alt="tech"  > </a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_2_3.png" alt="tech"  > </a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_2_4.png" alt="tech"  >   </a> 
+        </div>
+        <div>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">The hackers taking the bugs to the bank</a>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">The shady world of Russian data theft</a>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Pelosi clip shows misinformation is wllcome on Facebook</a>
+            
+        </div>
+        <div>
+            <a  class="Tech_2_3_left_text_small" id="Tech_2_3_text_small" href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> Looking for bugs in computer code can be lucrative but therews more to security than just cashing in.</a>
+            <a  class="Tech_2_3_left_text_small" id="Tech_2_3_text_small" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Sales of hacked personal data are booming in Russia as the penalties are rarely heavy.</a>
+            <a  class="Tech_2_3_left_text_small" id="Tech_2_3_text_small" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">The social network has not removed a manipulated clip of Nency Pelosy,despite fact-checkers decrying it as take news.</a>
+         </div>
+        <div style="margin-top: 7px;">
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time" ></i> <span class="span_d"> 1d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a> </div> 
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 1d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a> </div> 
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 2d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a>  </div>  
+        </div>
+    </div> 
+    <br>
+    <div style="margin-top: 47px; display:block;color: white;">     </div>
+    <div class="Tech_2_3_right">
+        <div>
+            <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Tech_2_3_right_text" src="Tech_3_1.png" alt="tech"  >  </a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies1" src="Tech_3_2.png" alt="tech"  >  </a>  
+        </div>
+        <div>
+            <a  class="Tech_text_pictures_first" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Finally, 5G is here - but so what ?</a>
+            <a  class="Tech_text_pictures_second" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Rory shares his Parkinson's diagnosis</a>
+        </div>
+        <div style="margin-top: 7px;">
+            <div class="Tech_text_pictures_first" ><i class="glyphicon glyphicon-time" ></i> <span class="span_d"> 1d   </span> <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a>  </div> 
+            <div class="Tech_text_pictures_second" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 1d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Entertainment & Arts</a> </div> 
+        </div>
+    </div>
+  
+     <div class="Tech_2_3_left">
+        <div>
+            <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_3_3.png" alt="tech"  >  </a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_3_4.png" alt="tech"  ></a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_3_5.png" alt="tech"  >   </a> 
+        </div>
+        <div>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">'I thought he was playing an innocent game'</a>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">UK parking spaces to be made 'app ready'</a>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Veterans celebrate code- breaking machine</a>
+        </div>
+        <div style="margin-top: 7px;">
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time" ></i> <span class="span_d"> 1d   </span> <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a>  </div> 
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 1d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a> </div> 
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 2d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Beds, Herts & Bucks</a>  </div>  
+        </div>
+     </div>  
+
+     <div class="Tech_watch_first">Watch/Listen 
+     </div>
+     <div class="Tech_watch_second">
+        <hr  style="border-top: 0.6px solid black;margin-right: 60px;"></hr>
+    </div>  
+
+    <div class="Tech_watch_picture_first">
+        <div>
+            <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Tech_2_3_right_text" src="Tech_4_1.png" alt="tech"  >  </a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies1" src="Tech_4_2.png" alt="tech"  >  </a>  
+        </div>
+        <div>
+            <a  class="Tech_text_pictures_first" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">The raspberry picking robot</a>
+            <a  class="Tech_text_pictures_second" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">How must faster is 5G ?</a>
+        </div>
+        <div style="margin-top: 7px;">
+            <div class="Tech_text_pictures_first" ><i class="glyphicon glyphicon-time" ></i> <span class="span_d"> 3d   </span> <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a>  </div> 
+            <div class="Tech_text_pictures_second" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 4d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Entertainment & Arts</a> </div> 
+        </div>
+    </div>
+  
+     <div class="Tech_watch_picture_second">
+        <div>
+            <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_4_3.png" alt="tech"  >  </a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_4_4.png" alt="tech"  ></a>  <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"> <img class="Picturies" src="Tech_4_5.png" alt="tech"  >   </a> 
+        </div>
+        <div>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">The moment 5G falls live on air</a>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Dodging drone can avoid mid-air crashes</a>
+            <a  class="Tech_2_3_text_left_bold" id="Tech_2_3_text_bold" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">The diggers guided by satellites and drones</a>
+        </div>
+        <div style="margin-top: 7px;">
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time" ></i> <span class="span_d"> 5d   </span> <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a>  </div> 
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 3d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Technology</a> </div> 
+            <div class="Tech_2_3_id" ><i class="glyphicon glyphicon-time"></i> <span class="span_d"> 2d   </span>  <a  class="span_text" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">Beds, Herts & Bucks</a>  </div>  
+        </div>
+     </div>  
+
+     <script>
+           function changeVisibility() {
+               if (document.getElementById("More_Visible").style.display == "block") {
+                    document.getElementById("More_Visible").style.display = "none";
+               } else {
+                    document.getElementById("More_Visible").style.visibility = "visible";  
+                    document.getElementById("More_Visible").style.display = "block";
+               }
+           }
+    </script>    
+    
+</body>
+</html>
+ 

@@ -1,0 +1,292 @@
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family:  'Yrsa', serif;
+            box-sizing: border-box;
+        }
+        }
+
+        ul {  list-style-image: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";}
+        a{color: black;}
+        a:hover{color:rgb(95, 95, 156);}
+        #BBC_bbc1{
+            display:inline-block;
+        }
+        .BBC{
+            border-left:1px solid rgb(226, 226, 218);
+           
+        }
+        #BBC_sign:hover{
+            border-bottom: 3px solid rgba(76, 76, 145, 0.705);
+            cursor:pointer;
+        }
+        #BBC_home:hover{
+            border-bottom: 3px solid rgba(76, 76, 145, 0.705);
+            cursor:pointer;
+        }
+        #BBC_news:hover{
+            border-bottom: 3px solid rgba(212, 140, 106, 0.774);
+            cursor:pointer;
+        }
+        #BBC_sport:hover{
+            border-bottom: 3px solid yellow;
+            cursor:pointer;
+        }
+        #BBC_Weather:hover{
+            border-bottom: 3px solid blue;
+            cursor:pointer;
+        }
+        #BBC_shop:hover{
+            border-bottom: 3px solid rgba(69, 69, 184, 0.815);
+            cursor:pointer;
+        }
+        #BBC_reel:hover{
+            border-bottom: 3px solid blue;
+            cursor:pointer;
+        }
+        #BBC_travel:hover{
+            border-bottom: 3px solid rgba(76, 76, 145, 0.705);
+            cursor:pointer;
+        }
+        #BBC_more:hover{
+            border-bottom: 3px solid rgba(76, 76, 145, 0.705);
+            cursor:pointer;
+
+        }
+       
+        #BBC_Search_input{
+            border:0px solid   rgba(167, 167, 172, 0.281) ;
+            background-color: rgba(167, 167, 172, 0.281);
+            position:absolute;
+            top: 10px;
+            left:1113px;
+            height: 25px;
+            width: 172px;
+            margin:0px 0px 0px 0px;
+            padding-left: 5px;
+            padding-top: 2px;
+            padding-top: 2px;
+            font-weight: 350;
+            font-size: 17px;
+        }
+        #BBC_Search_input:hover{
+            border:2px solid rgba(0, 0, 255, 0.11) ;
+       }
+
+        #BBC_Search_img{
+            position:absolute;
+            top: 10px;
+            left:1285px;
+            height: 25px;
+        }
+        #home_line{
+            background-color: rgb(187, 25, 25);
+            height:31px;
+            width: 1365px;
+            margin: 0px;
+        }
+        .More_Visible{
+            /* margin-top: 10px; */
+             display:inline-block;
+             float: right;
+             width: 100%;
+             /* margin-right: 25px; */
+             display: none;
+             border-top: 1px solid rgb(201, 193, 193);
+            
+         }
+         .More_Visible_text{
+            padding-left:18px;
+            padding-right: 10px;
+            width: 215px;
+            display:inline-block;
+            margin-top: 10px;
+            /* font-size: 16px;  
+            font-weight: 595; */
+        }
+        #More_Visible_More{
+            font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+            font-size: 26.002px;
+            font-stretch: 100%;
+            font-style: normal;
+            font-weight: 400;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variation-settings: normal;
+        }
+        #More_Visible_subject{
+            font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+            font-size: 13.002px;
+            font-stretch: 100%;
+            font-style: normal;
+            font-weight: 550;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variation-settings: normal;
+        }
+        #More_Visible_subject:hover{
+            text-decoration:none;
+            color:white;
+            background-color: black;
+        }
+        .News_line{
+            position: relative;
+        }
+  
+        .Home_line_news{
+            
+            border-left:1px solid rgb(226, 86, 86);
+        }
+        #Home_line_news_tech{
+            border-bottom: 3px solid white;
+        }
+        .Home_line_news:hover{
+            border-bottom: 3px solid white;
+        }
+        #Home_line_news_home:hover{
+            border-bottom: 3px solid white;
+        }
+        #Home_line_news_more:hover{
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+
+        } 
+        .Tech_2_3_right{
+           margin-top: 40px;
+            display:inline-block;
+            /* float:left; */
+            width: 40%;
+            /* margin-right: 25px; */
+        }
+        .Tech_2_3_right_text,#Tech_text{ 
+            padding-left: 50px;
+        }
+        .Tech_text_pictures_first{
+            padding-left: 50px;  
+            /* padding-right: 25px; */
+            
+            width: 250px;
+            display:inline-block;
+            
+        }
+        .Tech_text_pictures_second{
+            padding-left: 55px;  
+            width: 250px;
+            display:inline-block;
+            
+        }
+
+
+        /* #Tech_text_1{
+            font-size: 16px;    
+        } */
+        #Tech_text{
+            font-weight: bold;
+            font-size: 31px;
+            margin: 8px 0px 0px 0px;
+            padding: 0px 0px 0px 50px;
+            
+        }
+        .Tech_2_3_left{
+            /* margin-left: 6px; */
+            margin-top: 37px;
+            display:inline-block;
+            float: right;
+            /* width: 800px; */
+            width: 59.5%;
+            /* height: 570px; */
+        }
+        .Picturies{
+            padding-left: 5px;
+            padding-right: 12px;
+        }
+        .Picturies1{
+            padding-left: 17px;
+            /* padding-right: 12px; */
+        }
+        .Picturies2{
+            padding-left: 17px;
+            /* padding-right: 12px; */
+            width: 250px;display:inline-block;
+        }
+
+        .Tech_2_3_text_left_bold,.Tech_2_3_left_text_small{
+            padding-left: 5px;
+            padding-right: 12px;
+            width: 250px;
+            display:inline-block;
+        }
+         #Tech_2_3_text_bold{
+            font-weight: bold;
+            font-size: 19px;
+            margin-top: 5px; margin-bottom: 0px;
+            
+        }
+        #Tech_2_3_text_small{
+            font-size: 16px;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+        #Tech_2_3_text_small:hover{
+            text-decoration:none;
+            color:black;
+        }      
+       a{
+            cursor:pointer;    
+        }
+
+        .span_d{
+            border-right:1px solid grey;
+            padding-right: 10px;
+            padding-left: 2px;
+        }
+        .span_text{
+            padding-left: 5px;
+            font-size: 15px;
+        }
+     
+         .Tech_2_3_id{
+            padding-left: 8px;
+            width: 250px;
+            display:inline-block;
+         }
+         .Tech_watch_first{
+           margin-top: 40px;
+           display:inline-block;
+            width: 16%;
+            padding-left: 50px;
+            font-size: 29px;
+            font-weight: bold;
+        }
+        .Tech_watch_second{
+            margin-top: 37px;
+            display:inline-block;
+            float: right;
+            width: 83.8%;
+            /* width: 80%; */
+        }
+        .Tech_watch_picture_first{
+           margin-top: 10px;
+            display:inline-block;
+            width: 40%;
+            /* margin-right: 25px; */
+        }
+        .Tech_watch_picture_second{
+            /* margin-left: 6px; */
+            margin-top: 7px;
+            display:inline-block;
+            float: right;
+            width: 59.5%;
+        }
+        .Tech_watch_first:hover {animation : shake1 0.5s;}
+        @keyframes
+        shake1 {
+        0%{ transform: translate(2px, 2px)}
+        25%{ transform: translate(2px, -2px) }
+        50%{ transform: scale(1.3);border:10px solid black;background-color: chartreuse}
+        75%{ transform: translate(2px, -2px) }
+        100%{ transform: translate(0px, 0px) }}
